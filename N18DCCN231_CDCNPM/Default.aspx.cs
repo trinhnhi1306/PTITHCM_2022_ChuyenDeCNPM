@@ -219,7 +219,7 @@ namespace N18DCCN231_CDCNPM {
                         while (sdr.Read())
                         {
                             ListItem item = new ListItem();
-                            item.Text = sdr["name"].ToString() + " (" + tableName + ")";
+                            item.Text = sdr["name"].ToString();
                             item.Value = tableName;
                             CheckBoxListColumn.Items.Add(item);
                         }
