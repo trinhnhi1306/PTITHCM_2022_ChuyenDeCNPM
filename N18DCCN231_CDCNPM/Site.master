@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="N18DCCN231_CDCNPM.SiteMaster" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="UTF-8" />
+    <title>Chuyên đề công nghệ phần mềm - Tạo báo cáo động</title>
+    <link href="~/Content/Site.css" rel="stylesheet" /> 
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="content-wrapper">
+            <div class="header">
+                <h1>Chuyên đề công nghệ phần mềm - Tạo báo cáo động</h1>
+            </div>
+
+            <div class="content">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+
+            <div class="footer">
+                <p>&copy; <%: DateTime.Now.Year %> - DevExpress ASP.NET project copyright</p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
